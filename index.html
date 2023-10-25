@@ -1,0 +1,312 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my portfolio</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="https://kit.fontawesome.com/b1ee0be1b4.js" crossorigin="anonymous"></script>
+    <style>
+      .self{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 20px;
+
+}
+    </style>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="/image/logo.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Full Stack Devoloper</p>
+                <h1>Hi,i'm <span>R</span>AMALINGAM<br>FROM TIRUPUR</h1>
+            </div>
+        </div>
+    </div>
+<!-----------------about-------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./image/ram pic 2.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1><br>
+                    <p>Hello, i am ramalingam s from tirupur , I am a full stack devoloper. I can provide clean code and pixel prefer design. I also make the website & more interactive with web animations. A respective design makes your website accessiable to all users,regardless of their device</p>
+                    <div class="tab-titles"><br><br>
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>HTML&CSS</span><br></li>
+                            <li><span>Javascript</span><br></li>
+                            <li><span>Bootstrap</span><br></li>
+                            <li><span>node.js</span>  (using Express.js framework)</li>
+                            <li><span>GitHub</span><br></li>
+                      
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Master Of Computer Applications(MCA),2023-2025(pursuing)</span><br>Rathnavel Subramaniam (RVS) College of Arts and Science, Sulur, Coimbatore <br>
+                            </li>
+                            <li><span>Bachelor Of Computer Applications(BCA),2019-2022</span><br>Ponnaiyah Ramajeyam (PRIST) Deemed to be university, Thanjavur<br>
+                            percentage: 8.63 CGPA</li>
+                            <li><span>HSC 2019 </span><br>CAMHSS SCHOOL,Kongu Main Road,Tirupur<br>percentage: 65.5%</li>
+                            <li><span>SSLC 2017</span><br>CAMHSS SCHOOL,Kongu Main Road,Tirupur,<br>percentage: 86%%</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="self">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/oLFIsttLNlM?si=iSQTvEBYWfkSadzX" 
+                  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+                  encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-------------portfolio-------------->
+
+<div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">Latest <span>Project</span></h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="/image/bouncing-ball.gif" height="180px" alt="" />
+            <div class="layer">
+              <h3>Ball Movement</h3>
+              <a
+                target="_blank"
+                href="  https://ramrvscasmca23.github.io/Ball_movement/"
+                ><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+              <a href="https://github.com/ramrvscasmca23/Ball_movement"><i class='bx bx-link'></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="/image/container.gif" alt="" />
+            <div class="layer">
+              <h3>Random ball</h3>
+              <a target="_blank" href=" https://ramrvscasmca23.github.io/add-movement-to-the-balls/"
+                ><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+              <a href="https://github.com/ramrvscasmca23/add-movement-to-the-balls"><i class='bx bx-link'></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="/image/packman.gif" alt="" />
+            <div class="layer">
+              <h3>Pacman</h3>
+              <a target="_blank" href=" https://ramrvscasmca23.github.io/Pacman/"
+                ><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+              <a href="https://github.com/ramrvscasmca23/Pacman"><i class='bx bx-link'></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="/image/boston.gif" alt="" />
+            <div class="layer">
+              <h3>Boston Data</h3>
+              <a target="_blank" href="https://ramrvscasmca23.github.io/boston-data/" >
+                <i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+              <a href="https://github.com/ramrvscasmca23/boston-data"><i class='bx bx-link'></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="/image/word count.jpg" alt="" />
+            <div class="layer">
+              <h3>Word Count</h3>
+              <a target="_blank" href="https://ramrvscasmca23.github.io/Word-count/"
+                ><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+              <a href="https://github.com/ramrvscasmca23/Word-count "><i class='bx bx-link'></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="/image/packman game.jpg" height="180px" alt="" />
+            <div class="layer">
+              <h3>Pacman Game</h3>
+              <a target="_blank" href="https://ramrvscasmca23.github.io/multiple-pacman-moving/"
+                ><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+              <a href="https://github.com/ramrvscasmca23/multiple-pacman-moving"><i class='bx bx-link'></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="/image/eye.jpg" alt="" />
+            <div class="layer">
+              <h3>EyeBall Movement</h3>
+              <a target="_blank" href="https://ramrvscasmca23.github.io/Eye-Movement/"
+                ><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+              <a href="https://github.com/ramrvscasmca23/Eye-Movement"><i class='bx bx-link'></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="/image/map maker.gif" alt="" />
+            <div class="layer">
+              <h3>Map Marker</h3>
+              <a target="_blank" href="https://ramrvscasmca23.github.io/map-makings/"
+                ><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+              <a href="https://github.com/ramrvscasmca23/map-makings"><i class='bx bx-link'></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="/image/hanoi.jpg" alt="" />
+            <div class="layer">
+              <h3>Tower of Hanoi</h3>
+              <a target="_blank" href=" https://ramrvscasmca23.github.io/hanoi-tower/"
+                ><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+              <a href="https://github.com/ramrvscasmca23/hanoi-tower"><i class='bx bx-link'></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+<!-- <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="/image/bouncing-ball.gif">
+                <div class="layer">
+                    <p>BallMovement</p>
+                    <a href="https://ramrvscasmca23.github.io/Ball_movement/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="/image/container.gif">
+                <div class="layer">
+                    <p>container</p>
+                    <a href=" https://ramrvscasmca23.github.io/add-movement-to-the-balls/ "><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="/image/packman.gif">
+                <div class="layer">
+                    <p>Pacman</p>
+                    <a href=" https://ramrvscasmca23.github.io/Pacman/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="/image/boston.gif">
+                <div class="layer">
+                    <p>Boston</p>
+                    <a href="https://vishothrvscasmca23.github.io/boston/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="/image/word count.jpg">
+                <div class="layer">
+                    <p>WordCount</p>
+                    <a href="https://ramrvscasmca23.github.io/Word-count/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="/image/packman game.jpg">
+                <div class="layer">
+                    <p>PacmanGame</p>
+                    <a href=" https://ramrvscasmca23.github.io/multiple-pacman-moving/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="/image/eye.jpg">
+                <div class="layer">
+                    <p>EyeMovement</p>
+                    <a href=" https://ramrvscasmca23.github.io/Eye-Movement//"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="/image/map maker.gif">
+                <div class="layer">
+                    <p>mapmaker</p>
+                    <a href="https://ramrvscasmca23.github.io/map-makings//"><i class="fa-solid fa-up-right-from-square"></i></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">see more</a>
+    </div>
+</div> -->
+<!-----------contact-------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contect-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p> <i class="fas fa-paper-plane"></i> ramu1012002@gmail.com</p>
+                <p><i class="fas fa-phone-alt"></i>8098165248</p>
+                <div class="social-icons">
+                    <a href="http://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fab fa-twitter-square"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="/image/resume.jpg" class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form action="https://formsubmit.co/ramu1012002@gmail.com" method="POST">
+
+                    <input type="text" placeholder="Your Name" name="Name" required>
+                    <input type="email" placeholder="Your Email"  name="Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright ⓒ ram. made with 🤍 by easy tutorials</p>
+    </div>
+</div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+    
+        function openmenu(){
+            sidemenu.style.right = "0";
+    
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+
+   
+</body>
+</html>
